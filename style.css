@@ -1,6 +1,6 @@
 body{
     font-family: "Roboto" , sans-serif;
-    width: 2800px;
+    width: 2700px;
 }
 *{
     margin: 0;
@@ -54,7 +54,7 @@ margin-top: 20px;
 }
 .sec1-wrap{
     background-image: url(./images/Img.svg);
-    width: 2695px;
+    width: 2700px;
     height: 600px;
 }
 .svg{
@@ -132,7 +132,7 @@ height: 294px;
 .sec2-wrap{
     padding-top: 20px;
     background-color: #F5F4FA;;
-    width: 2695px;
+    width: 2700px;
     height: 600px;
 }
 .img1{
@@ -144,7 +144,7 @@ height: 294px;
 /*------------------------------------------------------footer------------------------------------------------------*/
 .footer{
     background-color: #2F303A;
-    width: 2695px;
+    width: 2700px;
     height: 252px
 }
 .webstudiowhite{
