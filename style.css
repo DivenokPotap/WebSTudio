@@ -1,12 +1,11 @@
+/*---------------------------------------------------------header------------------------------------------------------*/
 body{
     font-family: "Roboto" , sans-serif;
-    width: 2695px;
 }
 *{
     margin: 0;
     padding: 0;
 }
-/*---------------------------------------------------------header------------------------------------------------------*/
 .flex{
     display: flex
 }
@@ -53,6 +52,8 @@ margin-top: 20px;
 }
 .sec1-wrap{
     background-image: url(./images/Img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 2695px;
     height: 600px;
 }
@@ -143,8 +144,7 @@ height: 294px;
 /*------------------------------------------------------footer------------------------------------------------------*/
 .footer{
     background-color: #2F303A;
-    width: 2695px
-    ;
+    width: 2695px;
     height: 252px
 }
 .webstudiowhite{
@@ -238,4 +238,14 @@ padding-left: 35px;
 .great{
     margin-top: 100px;
     margin-left: 20px;
+}
+.section8{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.imgvgg{
+    padding-top: 70px;
+    margin-bottom: 100px;
+    gap: 20px;
+    margin-left: 750px;
 }
