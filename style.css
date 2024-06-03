@@ -250,3 +250,17 @@ padding-left: 35px;
     gap: 20px;
     margin-left: 750px;
 }
+.positioncl{
+    background-color:#2F303ACC;
+    color: white;
+    position: absolute;
+    font-weight: 700;
+    font-size: 15px;
+    align-content: center;
+    width: 370px;
+height: 94px;
+top: 1208px;
+}
+.positioncl p{
+padding-left: 100px;
+}
