@@ -176,9 +176,11 @@ align-items: center;
     align-items: center;
 }
 .img7{
-    gap: 10px;
     align-items: center;
-    margin-left: 770px;
+    margin-left: 650px;
+}
+.img7 > .image{
+    margin-left: 40px;
 }
 .card{
     width: 270px;
@@ -259,8 +261,24 @@ padding-left: 35px;
     align-content: center;
     width: 370px;
 height: 94px;
-top: 1208px;
+top: 1188px;
 }
 .positioncl p{
 padding-left: 100px;
+}
+.bos{
+    margin-left: 670px;
+}
+.h323{
+margin-top: 20px;
+}
+.bos > .h323{
+margin-left: 50px;
+}
+.h323 p{
+    font-family: "Roboto" , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #757575; 
 }
