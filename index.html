@@ -10,6 +10,30 @@
 </head>
 <body>
     <header>
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+<span class="close" onclick="document.getElementById('myModal').style.display='none'">
+                    &times;
+                </span>
+                <div class="col">
+                <p>Залиште свої дані,ми вам передзвонимо</p>
+                <p class="sommm">Ім'я</p>
+                <input class="chum" type="text" class="input" placeholder="">
+                <p>Телефон</p>
+                <input class="cpho" type="text" class="input" placeholder="">
+                <p>Пошта</p>
+                <input class="cmal" type="text" class="input" placeholder="">
+                <p>Коментар</p>
+                <input class="ctex" type="text" class="input" placeholder="Введіть текст">
+                <div class="flex dog">
+                    <input class="check" type="checkbox">
+                    <p>Погоджуюся з розсилкою та приймаю <span><a href="#">Умови договору</a></span></p>
+                </div>
+                <div class="mg">Відправити</div>
+            </div>
+        </div>
+            </div>
+            </div>
         <div class="header-wrap flex">
             <div class="p1-wrap flex">
                 <div class="logo">
@@ -19,12 +43,12 @@
                     <nav class="c2">
                         <ul class="menu flex">
                             <li><a href="#" class="el1">Студія</a></li>
-                            <li><a href="https://divenokpotap.github.io/portfolio/">Портфоліо</a></li>
+                            <li><a href="#">Портфоліо</a></li>
                             <li><a href="#">Контакти</a></li>
                 </div>
             </div>
             <div class="p2-wrap flex">
-            <a href="info@devsstudio.com" class="el999">info@devstudio.com</a>
+            <a href="#" class="el999" onclick="document.getElementById('myModal').style.display='block'">info@devstudio.com</a>
             <div>
             <img class="svg" src="./images/Vector (3).svg" alt="1">
             <a href="+38 096 111 11 11" class="gray">+38 096 111 11 11</a>
@@ -46,7 +70,7 @@
         </div>
         </section class="fax">
         <br>
-                <section class="infosec1">
+        <section class="infosec1">
         <div class="img7">
             <img class="image" src="./images/Group 1 (1).svg"  alt="card1">
             <img class="image" src="./images/Group 2.svg" alt="card2">
@@ -212,8 +236,10 @@
                     <li class="gap"><a href="#"><img src="./images/Ellipse_foot1.svg" alt="4"></a></li>
                     <li class="gap"><a href="#"><img src="./images/Ellipse_infoot.svg" alt="4"></a></li>
                 </ul>
+                </div>
             </div>
         </div>
+    </div>
     </footer>
 </body>
 </html>
