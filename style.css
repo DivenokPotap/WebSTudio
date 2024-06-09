@@ -1,8 +1,10 @@
 /*---------------------------------------------------------header------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Italiana&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     font-family: "Roboto" , sans-serif;
-    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 .flex{
     display: flex
@@ -99,6 +101,7 @@ display: flex;
     margin-top: 20px;
 }
 .el2{
+    padding-left: 11px;
     padding-top: 10px;
     gap: 20px;
     color: #757575;
@@ -169,8 +172,9 @@ align-items: center;
 .textnew{
     width: 1200px;
     margin-left: 800px;
-    gap: 150px;
+    gap: 120px;
     align-items: center;
+    padding-right: 30px;
 }
 .img7{
     align-items: center;
@@ -258,7 +262,7 @@ padding-left: 35px;
     align-content: center;
     width: 370px;
 height: 94px;
-top: 1178px;
+top: 1203px;
 }
 .positioncl p{
 padding-left: 100px;
