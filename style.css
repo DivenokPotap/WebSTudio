@@ -51,7 +51,7 @@ a{
 margin-top: 20px;
 }
 .sec1-wrap{
-    background-image: url(./images/Img.svg);
+    background-image: url(./images/Img\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 2695px;
@@ -282,4 +282,129 @@ margin-left: 50px;
     font-weight: 400;
     line-height: 24px;
     color: #757575; 
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000033;
+    }
+    .modal-content{
+    background-color: #ffffff;
+    margin-top: 200px;
+    margin-left: 1030px;
+    padding: 20px;
+    width: 528px;
+    height: 531px;
+    border-radius: 4px;
+    }
+.mg:hover{
+    cursor: pointer;
+}
+    .col{
+        margin-top: 30px;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.06px;
+letter-spacing: 0.01em;
+text-align: left;
+    }
+.sommm{
+margin-top: 10px;
+  }
+    .close{
+        float: right;
+    }
+    .close:hover{
+        cursor: pointer;
+    }
+.chum::placeholder{
+content: url(./images/person-black-18dp\ 1.svg);
+padding-left: 5px;
+}
+.chum{
+    width:448px;
+    height: 40px;
+}
+.cpho::placeholder{
+    content: url(./images/phone-black-18dp\ 1.svg);
+    padding-left: 5px;
+    }
+    .cpho{
+        width:448px;
+        height: 40px;
+    }
+    .cmal::placeholder{
+    content: url(./images/email-black-18dp\ 1.svg);
+    padding-left: 5px;
+    }
+    .cmal{
+    width:448px;
+    height: 40px;
+   }
+   .ctex::placeholder{
+    padding-left: 5px;
+    padding-bottom: 10px;
+    }
+    .ctex{
+        width:448px;
+        height: 120px;
+    }
+.col input{
+margin-left: 30px;
+border: 1px solid #21212133;
+}
+.col p{
+    margin-left:30px;
+}
+.dog p{
+margin-left: 10px;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.dog{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.dog span{
+    text-decoration: underline;
+    color: #2196F3;
+}
+.dog a{
+    color: #2196F3;
+}   
+.col p:nth-child(1){
+font-size: 20px;
+font-weight: 700;
+line-height: 23.44px;
+letter-spacing: 0.03em;
+margin-left: 40px;
+}
+.mg{
+    margin-top: 50px;
+margin-left: 100px;
+    width: 200px;
+height: 50px;
+border-radius: 4px 4px 4px 4px;
+padding:10px 0px 0px 95px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px #00000026;
+color: white;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+}
+.modal span:hover{
+    color:#2196F3;
+}
+.modal input:hover{
+    border: 1px solid#2196F3; 
 }
