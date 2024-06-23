@@ -1,5 +1,6 @@
 /*---------------------------------------------------------header------------------------------------------------------*/
 body{
+    font-weight: 600;
     font-family: "Roboto" , sans-serif;
 }
 *{
@@ -322,6 +323,12 @@ margin-top: 10px;
     .close:hover{
         cursor: pointer;
     }
+.bn:hover{
+    background-color: rgb(19, 181, 226);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; 
+}
 .chum::placeholder{
 content: url(./images/person-black-18dp\ 1.svg);
 padding-left: 5px;
@@ -373,9 +380,12 @@ color: #757575;
     margin-top: 10px;
     margin-left: 20px;
 }
-.dog span{
+.dog a{
     text-decoration: underline;
     color: #2196F3;
+    -webkit-transition: font-size .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out; 
 }
 .dog a{
     color: #2196F3;
@@ -401,10 +411,39 @@ font-size: 16px;
 font-weight: 700;
 line-height: 30px;
 letter-spacing: 0.06em;
+transition: all;
+transition-duration: 1000ms;
+}
+.dog a:hover{
+    color:#4700e1;
+    text-decoration: none;
+    font-size: 16px;  
+    -webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out; 
+transition-duration: 1000ms;
 }
 .modal span:hover{
     color:#2196F3;
 }
 .modal input:hover{
-    border: 1px solid#2196F3; 
+    border: 1px solid#2196F3;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;  
+}
+
+.el1::after {
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 1px;
+    margin-top: 40px;
+    border: 1px solid #2196F3;
+    background-color: #2196F3;
+    left: 1378px;
+}
+.mg:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(19, 181, 226);
 }
